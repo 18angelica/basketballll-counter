@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+@font-face{
+    src: url("/cursive/E1234.ttf");
+    font-family: E1234;
+}
+
+h3{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 7px;
+    text-shadow: 5px 5px 1px black;
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    font-family: E1234;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: darkblue;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+button {
+    background: darkblue;
+    color: white;
+    border: 1px solid white;
+    margin: 3px;
+}
+
+
+
+
+
+
